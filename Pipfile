@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"gls" = {path = ".", editable = true}
+
+[dev-packages]
+black = "==22.10.0"
+pylint = "==2.15.8"
+
+[requires]
+python_version = "3.11"
