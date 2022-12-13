@@ -6,11 +6,11 @@ Before you can start interacting with the MyGLS REST API, you need an agreement 
 don’t have the required MyGLS login credentials please contact [GLS](https://gls-group.eu/GROUP/en/home).
 
 
-## Why python?
+## Motivation
 
 > The API development team of GLS has decided to release sample code for C#, PHP, JAVA. 
 
-This project adds `python` to the list. 
+This project adds Python to mix. 
 
 ### Under the hood
 
@@ -96,7 +96,7 @@ This project adds `python` to the list.
 
 Here is an example of how the created label would look like in the saved PDF:
 
-![Label](parcel.png)
+![Label](https://github.com/adamkornafeld/mygls-python/blob/main/parcel.png?raw=true)
 
 
 ## Contributions
