@@ -1,6 +1,6 @@
 # mygls-rest-client
  
- `mygls-rest-client` is a python client for the MyGLS REST API.
+ `mygls-rest-client` is a python client for the MyGLS REST API to create printable shipping labels.
 
 Before you can start interacting with the MyGLS REST API, you need an agreement with GLS. If you
 don’t have the required MyGLS login credentials please contact [GLS](https://gls-group.eu/GROUP/en/home).
@@ -65,7 +65,7 @@ This project adds `python` to the list.
         )
 
         parcel_ids = gls.print_labels(
-            "~/label_.pdf", [parcel],
+            "~/label.pdf", [parcel],
         )
 
 1. Look up parcels by print date:
@@ -90,6 +90,13 @@ This project adds `python` to the list.
 
         parcel_ids = [10023456]
         result: DeleteLabelsResponse = gls.delete_labels(parcel_ids)
+
+
+## Sample Output
+
+Here is an example of how the created label would look like in the saved PDF:
+
+![Label](parcel.png)
 
 
 ## Contributions
