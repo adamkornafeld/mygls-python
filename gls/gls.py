@@ -1,21 +1,21 @@
-from datetime import datetime
-from typing import Optional
 import hashlib
 import json
 import logging
 import requests
+from datetime import datetime
+from typing import Optional
 from dataclasses import asdict
-from parcel import Parcel
-from response import (
+from .parcel import Parcel
+from .response import (
     ParcelResponse,
     PrintedLabelsResponse,
     PrepareLabelsResponse,
     DeleteLabelsResponse,
 )
-from address import Address
-from gls_types import PrinterType
-from service import Service
-from settings import Settings
+from .address import Address
+from .gls_types import PrinterType
+from .service import Service
+from .settings import Settings
 
 HEADERS = {"Content-type": "application/json"}
 

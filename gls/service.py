@@ -1,6 +1,6 @@
 from pydantic.dataclasses import dataclass
 from typing import Optional
-from gls_types import Code
+from .gls_types import Code
 
 
 @dataclass

@@ -3,9 +3,9 @@ Parcel class
 """
 
 from pydantic.dataclasses import dataclass
-from address import Address
-from service import Service
 from typing import Optional
+from .address import Address
+from .service import Service
 
 
 @dataclass

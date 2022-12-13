@@ -1,6 +1,6 @@
 from pydantic.dataclasses import dataclass
-from parcel import Parcel
 from typing import Optional
+from .parcel import Parcel
 
 
 @dataclass
