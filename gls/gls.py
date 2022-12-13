@@ -20,7 +20,6 @@ from .settings import Settings
 HEADERS = {"Content-type": "application/json"}
 
 log = logging.getLogger(__name__)
-log.addHandler(logging.NullHandler())
 
 
 class GLS:
