@@ -31,7 +31,11 @@ class GLS:
     """
 
     def __init__(
-        self, client_number: int, username: str, password: str, settings: Settings
+        self,
+        client_number: int,
+        username: str,
+        password: str,
+        settings: Settings = Settings(),
     ):
         """
         Args: client_number: MyGLS client number
@@ -57,10 +61,10 @@ class GLS:
         pickup_date: datetime,
         reference: str,
         count: int,
-        cod_amount: Optional[float],
-        cod_reference: Optional[str],
-        content: Optional[str],
-        services: list[Service],
+        content: Optional[str] = "",
+        cod_amount: Optional[float] = 0,
+        cod_reference: Optional[str] = "",
+        services: Optional[list[Service]] = [],
     ) -> Parcel:
         """
         Creates a parcel object
