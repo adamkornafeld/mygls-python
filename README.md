@@ -1,6 +1,6 @@
 # mygls-rest-client
  
- `mygls-rest-client` is a python client for the MyGLS REST API to create printable shipping labels.
+ `mygls-rest-client` is a python client for the [MyGLS REST API](https://api.mygls.hu/index_en.html) to create printable shipping labels.
 
 Before you can start interacting with the MyGLS REST API, you need an agreement with GLS. If you
 don’t have the required MyGLS login credentials please contact [GLS](https://gls-group.eu/GROUP/en/home).
@@ -14,7 +14,7 @@ This project adds Python to mix.
 
 ### Under the hood
 
-`mygls-rest-client` uses the [requests](https://github.com/psf/requests) library to fetch data via the MyGLS API. A couple design decisions to be aware of that this client library has no influence on:
+`mygls-rest-client` uses the [requests](https://github.com/psf/requests) library to fetch data via the [MyGLS API](https://api.mygls.hu/index_en.html). A couple design decisions to be aware of that this client library has no influence on:
 - all API endpoints use the `POST` HTTP verb
 - all model properties use [upper camel case](https://wiki.c2.com/?UpperCamelCase) naming
 
