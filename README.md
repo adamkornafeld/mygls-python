@@ -18,6 +18,10 @@ This project adds Python to mix.
 - all API endpoints use the `POST` HTTP verb
 - all model properties use [upper camel case](https://wiki.c2.com/?UpperCamelCase) naming
 
+## Install
+
+    pip install mygls-rest-client
+
 ## Basic usage
 
 1. Create a `GLS` instance:
@@ -102,6 +106,15 @@ Here is an example of how the created label would look like in the saved PDF:
 ## Contributions
 
 Contributions are welcome, please submit a Pull Request.
+
+### Development
+
+I use [pipenv](https://pipenv.pypa.io/en/latest/) to manage the development environment. Dependencies are listed in [setup.cfg](https://github.com/adamkornafeld/mygls-python/blob/main/setup.cfg).
+
+    pip install pipenv
+    cd mygls-python
+    pipenv shell
+    pipenv install -e ".[dev,test]"
 
 ## Reference
 
