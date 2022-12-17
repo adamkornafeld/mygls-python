@@ -68,8 +68,9 @@ This project adds Python to mix.
             count = 1
         )
 
+        pdf_absolute_path = "~/label.pdf"
         parcel_ids = gls.print_labels(
-            "~/label.pdf", [parcel],
+            pdf_absolute_path, [parcel],
         )
 
 1. Look up parcels by print date:
