@@ -20,6 +20,8 @@ This project adds Python to mix.
 
 ## Install
 
+MyGLS Rest Client is published in the [PyPi](https://pypi.org/project/mygls-rest-client/) package repository.
+
     pip install mygls-rest-client
 
 ## Basic usage
